@@ -8,7 +8,7 @@ import {
 
 import IPedido from "../../../Interfaces/IPedido";
 
-export default class PedidosApi implements IPedidosApi {
+export class PedidosApi implements IPedidosApi {
   private apikey: string;
 
   //inicializa objeto
